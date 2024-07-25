@@ -68,7 +68,7 @@ def adjust_image(img, brightness=1.0, sharpness=1.0):
 
 # Streamlit app
 def main():
-    st.title("Image Cartoonification")
+    st.title("Cartoonify Image using Machine Learning")
 
     uploaded_file = st.file_uploader("Choose an image...", type=["png", "jpg", "jpeg"])
 
